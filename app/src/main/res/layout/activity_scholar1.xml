@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="60dp"
+    android:textColor="@color/colorWhite"
+    android:background="@color/colorDarkBlue"
+    android:text="성적 우수(교내)"
+    android:textSize="11pt"
+    android:gravity="center"
+    android:id="@+id/db1" />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="성적 우수(국가)"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorDarkBlue"
+        android:textSize="11pt"
+        android:gravity="center"
+        android:id="@+id/db2" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorDarkBlue"
+        android:text="국가유공자"
+        android:textSize="11pt"
+        android:gravity="center"
+        android:id="@+id/db3" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorDarkBlue"
+        android:text="복지"
+        android:textSize="11pt"
+        android:gravity="center"
+        android:id="@+id/db4" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorDarkBlue"
+        android:text="기타"
+        android:textSize="11pt"
+        android:gravity="center"
+        android:id="@+id/db5" />
+    
+</LinearLayout>

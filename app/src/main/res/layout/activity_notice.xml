@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"></LinearLayout>
+
+    <Button
+        android:id="@+id/btn_craw1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="공지사항 불러오기"
+        android:textSize="9pt"
+        android:background="@color/colorBlue"
+        android:textColor="@color/colorWhite">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"></LinearLayout>
+
+    <Button
+        android:id="@+id/btn_data"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="장학제도 확인하기"
+        android:textSize="9pt"
+        android:background="@color/colorBlue"
+        android:textColor="@color/colorWhite">
+    </Button>
+
+
+
+</LinearLayout>

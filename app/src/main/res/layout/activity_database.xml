@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="장학금 종류"
+        android:textColor="@color/colorWhite"
+        android:textSize="10pt"
+        android:background="@color/colorDarkBlue" >
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorBlue"
+        android:text="신입생 장학금"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/btn_data1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorBlue"
+        android:text="재학생 장학금"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_data2"/>
+
+
+
+</LinearLayout>

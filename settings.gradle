@@ -1,0 +1,2 @@
+include ':app', ':jsoup-1.12.1', ':jxl'
+rootProject.name='Scholarship1'

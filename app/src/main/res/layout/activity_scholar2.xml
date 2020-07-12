@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorDarkBlue"
+        android:text="성적 우수"
+        android:textSize="11pt"
+        android:gravity="center"
+        android:id="@+id/db6" />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="국가 유공자"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorDarkBlue"
+        android:textSize="11pt"
+        android:gravity="center"
+        android:id="@+id/db7" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorDarkBlue"
+        android:text="공로"
+        android:textSize="11pt"
+        android:gravity="center"
+        android:id="@+id/db8" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorDarkBlue"
+        android:text="복지"
+        android:textSize="11pt"
+        android:gravity="center"
+        android:id="@+id/db9" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorDarkBlue"
+        android:text="기타"
+        android:textSize="11pt"
+        android:gravity="center"
+        android:id="@+id/db10" />
+    
+</LinearLayout>

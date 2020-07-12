@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="289dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@color/colorWhite"
+            android:src="@drawable/logo1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_notice"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorBlue"
+            android:text="공지사항"
+            android:textColor="@color/colorWhite"
+            android:textSize="12pt"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_homepage"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:text="홈페이지"
+            android:textSize="12pt"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"></LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="개발자 : 박세윤"
+            android:textColor="@color/colorDarkBlue"></TextView>
+
+    </LinearLayout>
+</LinearLayout>
